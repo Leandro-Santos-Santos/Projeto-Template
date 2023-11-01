@@ -20,9 +20,49 @@ body{
     padding: 25px;
   padding-top: 58px;
     font-size: 48px;
+    margin-right: 220px;
 }
 .texto__principal{
     font-size: 17px;
     color: white;
+   margin-right: 180px;
+    
+    
+}
+
+
+.container-texto__principal{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 580px;
+    height: 200px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}   
+.barra__titulo-cima{
+    color: white;
     text-align: center;
+    padding-top: 58px;
+    margin-right: 200px
+    
+    
+}
+.barra__titulo-baixo{
+    color: white;
+    text-align: center;
+    padding-bottom: 58px;
+    margin-right:200px;
+    
+}
+.lista{
+    list-style: none;
+    color: white;
+  
+}
+
+.lista__item{
+    padding: 8px;
 }
