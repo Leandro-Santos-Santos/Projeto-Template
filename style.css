@@ -66,3 +66,12 @@ body{
 .lista__item{
     padding: 8px;
 }
+
+.lista__link{
+    text-decoration: none;
+    color: white;
+}
+.lista__link:hover{
+    font-size: 20px;
+    color: red;
+}
