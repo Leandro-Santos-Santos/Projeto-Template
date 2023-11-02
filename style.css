@@ -57,7 +57,7 @@ body{
     margin-right:200px;
     
 }
-.lista{
+.container__lista{
     list-style: none;
     color: white;
   
@@ -74,4 +74,10 @@ body{
 .lista__link:hover{
     font-size: 20px;
     color: red;
+}
+
+.container__lista{
+    background-color: rgba(134, 133, 132, 0.397);
+    
+    
 }
