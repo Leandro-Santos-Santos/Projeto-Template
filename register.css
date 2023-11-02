@@ -1,3 +1,12 @@
 body{
     background-image: url("img/input-bg-01.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.titulo__register{
+    color: white;
 }
