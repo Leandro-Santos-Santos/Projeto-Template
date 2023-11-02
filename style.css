@@ -77,7 +77,8 @@ body{
 }
 
 .container__lista{
-    background-color: rgba(134, 133, 132, 0.397);
+    width: auto;
+    background-color: rgba(185, 184, 183, 0.397);
     
     
 }
