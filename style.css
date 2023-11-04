@@ -57,11 +57,7 @@ body{
     margin-right:200px;
     
 }
-.container__lista{
-    list-style: none;
-    color: white;
-  
-}
+
 
 .lista__item{
     padding: 8px;
@@ -72,13 +68,22 @@ body{
     color: white;
 }
 .lista__link:hover{
-    font-size: 20px;
-    color: red;
+    font-size: 17px;
+    color: rgb(175, 174, 174);
 }
 
 .container__lista{
-    width: auto;
-    background-color: rgba(185, 184, 183, 0.397);
+    width: 180px;
+    text-align: left;
+    padding: 20px 15px;
+    color: white;
+    background-color: rgba(97, 97, 96, 0.397);
     
     
+}
+.container__lista-item{
+    list-style: none;
+}
+.container__lista-item li{
+padding-bottom: 28px;
 }
