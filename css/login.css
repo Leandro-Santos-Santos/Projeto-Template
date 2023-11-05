@@ -1,0 +1,44 @@
+body{
+
+        background-image: url("/img/input-bg-04.jpg");
+        height: 80vh;
+        width: 100%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: rgba(22, 21, 21, 0.39);
+    text-align: center;
+    color: white;       
+    align-items: center;
+    justify-content: center; 
+    margin: 210px auto; 
+    padding: 28px;
+    margin-left: 600px;
+   
+}
+.container-texto{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: rgba(22, 21, 21, 0.39);
+    text-align: center;
+    color: white;       
+    align-items: center;
+    justify-content: center; 
+    margin-top: 220px;
+    padding: 28px;
+    height: 100px;
+}
