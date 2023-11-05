@@ -15,6 +15,7 @@ section{
     justify-content: space-between;
 }
 
+
 .container-form{
     display: flex;
     flex-direction: column;
@@ -24,21 +25,34 @@ section{
     color: white;       
     align-items: center;
     justify-content: center; 
-    margin: 210px auto; 
+    margin: 210px 20px 210px 480px; 
     padding: 28px;
-    margin-left: 600px;
+    
    
 }
-.container-texto{
+input{
+    padding: 12px;
+}
+.segundo__container{
     display: flex;
     flex-direction: column;
-    width: 400px;
-    background-color: rgba(22, 21, 21, 0.39);
+    color: white;
     text-align: center;
-    color: white;       
-    align-items: center;
-    justify-content: center; 
-    margin-top: 220px;
-    padding: 28px;
-    height: 100px;
+    justify-content: center;
+    background-color: rgba(22, 21, 21, 0.226);
+    width: 400px;
+     height: 100%;
+     margin: auto 500px auto 20px;
+     padding: 18px;
+
+}
+.titulo{
+    font-weight: 300;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+.texto{
+    color: white;
+    justify-content: center;
+    text-align: center;
 }
