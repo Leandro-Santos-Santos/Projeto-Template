@@ -25,6 +25,7 @@ body {
   justify-content: center;
   padding: 28px;
   margin-right: 20px; 
+  font-family: "Open sans",sans-serif;
 }
 input {
   padding: 0;
