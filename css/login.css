@@ -1,58 +1,51 @@
-body{
-
-        background-image: url("/img/input-bg-04.jpg");
-        height: 80vh;
-        width: 100%;
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-position: center;
-        
-    
+body {
+  background-image: url("/img/input-bg-04.jpg");
+  height: 80vh;
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-section{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-
-.container-form{
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    background-color: rgba(22, 21, 21, 0.39);
-    text-align: center;
-    color: white;       
-    align-items: center;
-    justify-content: center; 
-    margin: 210px 20px 210px 480px; 
-    padding: 28px;
-    
-   
+.container-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: rgba(22, 21, 21, 0.39);
+  text-align: center;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  margin: 210px 20px 210px 480px;
+  padding: 28px;
 }
-input{
-    padding: 12px;
+input {
+  padding: 12px;
 }
-.segundo__container{
-    display: flex;
-    flex-direction: column;
-    color: white;
-    text-align: center;
-    justify-content: center;
-    background-color: rgba(22, 21, 21, 0.226);
-    width: 400px;
-     height: 100%;
-     margin: auto 500px auto 20px;
-     padding: 18px;
-
+.segundo__container {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(22, 21, 21, 0.226);
+  width: 400px;
+  height: 100%;
+  margin: auto 500px auto 20px;
+  padding: 18px;
 }
-.titulo{
-    font-weight: 300;
-    font-size: 32px;
-    margin-bottom: 8px;
+.titulo {
+  font-weight: 300;
+  font-size: 32px;
+  margin-bottom: 8px;
 }
-.texto{
-    color: white;
-    justify-content: center;
-    text-align: center;
+.texto {
+  color: white;
+  justify-content: center;
+  text-align: center;
 }
