@@ -6,10 +6,12 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
-section {
+.container-section {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .container-form {
@@ -21,8 +23,8 @@ section {
   color: white;
   align-items: center;
   justify-content: center;
-  margin: 210px 20px 210px 480px;
   padding: 28px;
+  margin-right: 20px; 
 }
 input {
   padding: 12px;
@@ -33,10 +35,9 @@ input {
   color: white;
   text-align: center;
   justify-content: center;
-  background-color: rgba(22, 21, 21, 0.226);
+  background-color: rgba(22, 21, 21, 0.39);
   width: 400px;
-  height: 100%;
-  margin: auto 500px auto 20px;
+  height: 180px;
   padding: 18px;
 }
 .titulo {
