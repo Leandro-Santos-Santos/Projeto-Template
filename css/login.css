@@ -37,6 +37,7 @@ input {
   width: 100%;
   font-size: 16px;
   color: white;
+  margin: 0 0 8px 0;
 }
 .segundo__container {
   display: flex;
