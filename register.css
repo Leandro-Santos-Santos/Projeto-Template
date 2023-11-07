@@ -18,3 +18,16 @@ body{
 .formulario{
     color: white;
 }
+
+.register__body{
+    width: 180px;
+    text-align: left;
+    padding: 20px 15px;
+    color: white;
+    background-color: rgba(97, 97, 96, 0.397);
+    flex-direction: row;
+}
+
+.formulario{
+    flex-direction: row;
+}
