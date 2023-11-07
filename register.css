@@ -18,3 +18,29 @@ body{
 .formulario{
     color: white;
 }
+
+.secao__principal{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.formulario{
+    display:flex;
+    flex-direction: column;
+    margin: 200px 200px 100px 0;
+}
+
+
+input {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+    border-radius: 0;
+    outline: none;
+    height: 3rem;
+    font-size: 16px;
+    color: white;
+    margin: 0 0 8px 0;
+  }
