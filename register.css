@@ -42,7 +42,7 @@ body{
 .formulario{
     display:flex;
     flex-direction: column;
-    margin: 80px 200px 100px 0;
+    margin: 80px 600px 100px 0;
 }
 
 
@@ -66,12 +66,14 @@ input {
   }
   h1{
     color: white;
-    text-align: center;
+    text-align: -webkit-right;
+    margin: -750px 200px 500px 0px;
     padding: 0;
   }
 
   .paragrafo__do__texto{
     width: 400px;
-    text-align: center;
+    text-align: start;
+    margin: -450px 600px 200px;
   }
 >>>>>>> 54b68dd63ee2ed6d4147f4357745cf3bfd93aefe
