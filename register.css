@@ -28,8 +28,9 @@ body{
 .formulario{
     display:flex;
     flex-direction: column;
-    margin: 200px 200px 100px 0;
+    margin: 80px 200px 100px 0;
 }
+
 
 
 input {
@@ -43,4 +44,19 @@ input {
     font-size: 16px;
     color: white;
     margin: 0 0 8px 0;
+  }
+
+  .container_segunda-section{
+    display: flex;
+    flex-direction: column;
+  }
+  h1{
+    color: white;
+    text-align: center;
+    padding: 0;
+  }
+
+  .paragrafo__do__texto{
+    width: 400px;
+    text-align: center;
   }
