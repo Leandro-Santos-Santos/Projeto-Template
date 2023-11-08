@@ -19,7 +19,7 @@ body{
     color: white;
 }
 
-<<<<<<< HEAD
+
 .register__body{
     width: 180px;
     text-align: left;
@@ -32,7 +32,8 @@ body{
 .formulario{
     flex-direction: row;
 }
-=======
+
+
 .secao__principal{
     display: flex;
     flex-direction: row;
@@ -76,4 +77,28 @@ input {
     text-align: start;
     margin: -450px 600px 200px;
   }
->>>>>>> 54b68dd63ee2ed6d4147f4357745cf3bfd93aefe
+
+
+  @media screen and (max-width: 1064px) {
+    .container {
+        width: 90%;
+        height: auto;
+    }
+    .input-group {
+        flex-direction: column;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+        max-height: 10rem;
+        padding-right: 5rem;
+    }
+    .gender-inputs{
+        margin-top: 2rem;
+    }
+    .gender-group {
+        flex-direction: column;
+    }
+    .gender-input{
+        margin-top: 0.5rem;
+    }
+
+  }
