@@ -43,7 +43,8 @@ body{
 .formulario{
     display:flex;
     flex-direction: column;
-    margin: 80px 600px 100px 200px;
+    border: nome;
+    margin: 80px 300px 100px 540px;
 }
 
 
@@ -65,12 +66,14 @@ input {
     display: flex;
     flex-direction: column;
   }
+  
   h1{
     color: white;
-    text-align: center;
-    margin-right: 500px;
+    text-align: justify;
+    margin-right: 0px;
     padding: 0;
     font-size: 48px;
+    margin: 95px 1px 0px;
   }
 
   .paragrafo__do__texto{
@@ -79,6 +82,17 @@ input {
     
   }
 
+  .radio input[type="radio"] {
+    outline: none;
+  }
+  
+
+  .input-button{
+    background-color: white;
+    font-size: 1.1rem;
+    padding: 0 77px;
+    border-radius: 5px;
+  }
 
   @media screen and (max-width: 1064px) {
     .container {
