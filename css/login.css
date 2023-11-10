@@ -48,7 +48,7 @@ input {
   justify-content: center;
   background-color: rgba(22, 21, 21, 0.39);
   width: 400px;
-  height: 180px;
+  height: 210px;
   padding: 18px;
 }
 .titulo {
@@ -60,4 +60,13 @@ input {
   color: white;
   justify-content: center;
   text-align: center;
+}
+
+.button2{
+  display: flex;
+  margin:  -270px 0 200px 900px;
+  text-align: center;
+  padding: 6px;
+  width: 150px;
+  height: 30px;
 }
