@@ -87,11 +87,17 @@ input {
   }
   
 
-  .input-button{
+  .btn{
     background-color: white;
     font-size: 1.1rem;
-    padding: 0 77px;
+    padding: 5 90px;
     border-radius: 5px;
+    width: 160px;
+    text-align: center;
+  }
+
+  .input-button{
+    text-align: center;
   }
 
   @media screen and (max-width: 1064px) {
@@ -114,6 +120,10 @@ input {
     }
     .gender-input{
         margin-top: 0.5rem;
+    }
+
+    fieldset {
+        border: none;
     }
 
   }
