@@ -7,9 +7,9 @@ body{
     background-position: center;
 }
 
-.text__principal{
-    display: flex;
-    flex-direction: column;
+.titulo{
     color: white;
-    text-align: center;
+}
+p{
+    color: white;
 }
