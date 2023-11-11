@@ -6,3 +6,10 @@ body{
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.text__principal{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
