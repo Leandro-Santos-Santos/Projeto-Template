@@ -21,7 +21,6 @@ body{
 
 
 .register__body{
-    width: 180px;
     text-align: left;
     padding: 20px 15px;
     color: white;
@@ -92,12 +91,22 @@ input {
     font-size: 1.1rem;
     padding: 5 90px;
     border-radius: 5px;
-    width: 160px;
+    width: 100px;
+    height: 45px;
     text-align: center;
   }
 
   .input-button{
     text-align: center;
+  }
+
+  .location{
+    display: flex;
+    width: 200px;
+  }
+
+  .flex{
+    
   }
 
   @media screen and (max-width: 1064px) {
