@@ -24,7 +24,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 28px;
-  margin-right: 20px; 
+  margin: 0 20px 48px 0; 
   font-family: "Open sans",sans-serif;
 }
 input {
@@ -40,7 +40,11 @@ input {
   color: white;
   margin: 0 0 8px 0;
 }
-.segundo__container {
+.forgot__senha{
+  display: flex;
+  gap: 12px;
+}
+.container--text{
   display: flex;
   flex-direction: column;
   color: white;
@@ -48,7 +52,7 @@ input {
   justify-content: center;
   background-color: rgba(22, 21, 21, 0.39);
   width: 400px;
-  height: 210px;
+  height: 190px;
   padding: 18px;
 }
 .titulo {
@@ -61,12 +65,17 @@ input {
   justify-content: center;
   text-align: center;
 }
-
+.segundo__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .button2{
   display: flex;
-  margin:  -270px 0 200px 900px;
+  margin-top: 25px;
   text-align: center;
   padding: 6px;
   width: 150px;
   height: 30px;
+
 }
