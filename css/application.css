@@ -1,0 +1,13 @@
+body{
+    background-image: url("img/img/input-bg-03.jpg");
+    height: 120vh;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 55% 15%;
+}
+
+.wapper{
+    display: flex;
+    flex-direction: column;
+}
