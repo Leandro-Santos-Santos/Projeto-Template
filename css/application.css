@@ -5,9 +5,21 @@ body{
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: 55% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .wapper{
     display: flex;
     flex-direction: column;
+}
+
+main.container{
+    background-color: white;
+    max-width: 350px;
+    min-width: 40vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
 }
