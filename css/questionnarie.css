@@ -29,3 +29,6 @@ p{
     color: white;
 }
 
+textarea.form-control{
+    background: transparent;
+}
