@@ -33,3 +33,8 @@ textarea.form-control{
     background: transparent;
     color: white;
 }
+
+input#occupation.form-control, input#level.form-control, input#age.form-control{
+    background: transparent;
+    color: white;
+}
