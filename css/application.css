@@ -23,3 +23,14 @@ main.container{
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
 }
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.teste{
+    display: flex;
+    flex-direction: column;
+}
