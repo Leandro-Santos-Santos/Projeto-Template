@@ -33,4 +33,10 @@ main.container{
 .teste{
     display: flex;
     flex-direction: column;
+    
 }
+
+.row-secund{
+    display: flex;
+}
+
