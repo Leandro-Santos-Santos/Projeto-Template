@@ -150,58 +150,84 @@
             torquent per conubia nostra, per inceptos himenaeos.
           </p>
           
-          <div class="mb-4 col-md-4">
-            <label for="occupation" class="form-label"> </label>
-            <input
-              class="form-control"
-              list="datalistOptions"
-              id="occupation"
-              placeholder="your occupation"
+            <div class="row">
+              <div class="mb-4 col-md-4">
+                <label for="occupation" class="form-label"> </label>
+                <input
+                  class="form-control"
+                  list="datalistOptions"
+                  id="occupation"
+                  placeholder="your occupation"
+                  
+                />
+                <datalist id="datalistOptions">
+                  <option value="Sales Manager"></option>
+                  <option value="Marketing Manager"></option>
+                  <option value="Accountant"></option>
+                  <option value="Director"></option>
+                  <option value="Executive"></option>
+                </datalist>
+              </div>
+              <div class="col-md-4 m-4"> 
+                <input type="name" id="name" class="form-control" placeholder="Your name">
+                <label for="name" class="form-label"></label>
+              </div>
               
-            />
-            <datalist id="datalistOptions">
-              <option value="Sales Manager"></option>
-              <option value="Marketing Manager"></option>
-              <option value="Accountant"></option>
-              <option value="Director"></option>
-              <option value="Executive"></option>
-            </datalist>
-          </div>
-
-          <div class="mb-4 col-md-4">
-            <label for="level" class="form-label"> </label>
-            <input
-              class="form-control"
-              list="datalistOptions"
-              id="level"
-              placeholder="Income Level"
-            
-            />
-            <datalist id="datalistOptions">
-              <option value="$25.000"></option>
-              <option value="$45.000"></option>
-              <option value="$65.000"></option>
-              <option value="$85.000"></option>
-            </datalist>
-          </div>
-
-          <div class="mb-4 col-md-4">
-            <label for="age" class="form-label"> </label>
-            <input
-              class="form-control"
-              list="datalistOptions"
-              id="age"
-              placeholder="Your Age"
-              
-            />
-            <datalist id="datalistOptions">
-              <option value="18-24"></option>
-              <option value="25-34"></option>
-              <option value="35-49"></option>
-              <option value="50-65"></option>
-            </datalist>
-          </div>
-
+            </div>  
+            <div class="row">
+              <div class="mb-4 col-md-4">
+                <label for="level" class="form-label"> </label>
+                <input
+                  class="form-control"
+                  list="datalistOptions"
+                  id="level"
+                  placeholder="Income Level"
+                
+                />
+                
+                <datalist id="datalistOptions">
+                  <option value="$25.000"></option>
+                  <option value="$45.000"></option>
+                  <option value="$65.000"></option>
+                  <option value="$85.000"></option>
+                </datalist>
+                
+              </div>
+              <div class="col-md-4 m-4"> 
+                <input type="email" id="email" class="form-control" placeholder="Your email">
+                <label for="email" class="form-label"></label>
+              </div>
+            </div>  
+            <div class="row">
+              <div class="mb-4 col-md-4">
+                <label for="age" class="form-label"> </label>
+                <input
+                  class="form-control"
+                  list="datalistOptions"
+                  id="age"
+                  placeholder="Your Age"
+                  
+                />
+                <datalist id="datalistOptions">
+                  <option value="18-24"></option>
+                  <option value="25-34"></option>
+                  <option value="35-49"></option>
+                  <option value="50-65"></option>
+                </datalist>
+                
+                
+              </div>
+              <div class="col mt-4 form-check"> 
+                <input type="radio" id="email" class="form-check-input" placeholder="Your email">
+                <label for="email" class="form-check-label">Male</label>
+              </div>
+              <div class="col mt-4 form-check "> 
+                <input type="radio" id="email" class="form-check-input" placeholder="Your email">
+                <label for="email" class="form-check-label">Female</label>
+              </div>
+            </div>
+          
+          
           <div class="col-md-12 mb-4">
 
             <div>
@@ -216,6 +242,7 @@
 
               
           </div>
+          
              <button type="submit" class="btn btn-primary ">Submit</button>
         </div>
         
