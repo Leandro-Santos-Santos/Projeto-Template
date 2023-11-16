@@ -1,0 +1,82 @@
+body {
+    background-image: url("/img/input-bg-04.jpg");
+    height: 80vh;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .container-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: rgba(22, 21, 21, 0.39);
+    text-align: center;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 28px;
+    margin: 0 20px 48px 0; 
+    font-family: "Open sans",sans-serif;
+  }
+  input {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+    border-radius: 0;
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 16px;
+    color: white;
+    margin: 0 0 8px 0;
+  }
+  .forgot__senha{
+    display: flex;
+    gap: 12px;
+  }
+  .container--text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(22, 21, 21, 0.39);
+    width: 400px;
+    height: auto;
+    padding: 18px;
+  }
+  .titulo {
+    font-weight: 300;
+    font-size: 32px;
+    margin-bottom: 8px;
+  }
+  .texto {
+    color: white;
+    justify-content: center;
+    text-align: center;
+  }
+  .segundo__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .button2{
+    display: flex;
+    margin-top: 25px;
+    text-align: center;
+    padding: 6px;
+    width: 150px;
+    height: 30px;
+  
+  }
+  
