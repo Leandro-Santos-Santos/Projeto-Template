@@ -6,10 +6,7 @@ body {
   background-repeat: no-repeat;
   background-position: 55% 2%;
 }
-.container{
-  display: flex;
 
-}
 .titulo__principal {
   text-align: center;
   color: white;
@@ -80,10 +77,10 @@ a:hover {
 .container__lista-item li {
   padding-bottom: 28px;
 }
-@media screen and (min-width: 300px )and (max-width: 375px) {
+@media screen and (min-width: 300px )and (max-width: 426px) {
 
 body{
-  height: 300px;
+  height: auto;
   width: auto;
   background-position: center;
 }
