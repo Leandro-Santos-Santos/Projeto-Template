@@ -6,7 +6,10 @@ body {
   background-repeat: no-repeat;
   background-position: 55% 2%;
 }
+.container{
+  display: flex;
 
+}
 .titulo__principal {
   text-align: center;
   color: white;
@@ -76,6 +79,62 @@ a:hover {
 }
 .container__lista-item li {
   padding-bottom: 28px;
+}
+@media screen and (min-width: 300px )and (max-width: 375px) {
+
+body{
+  height: 300px;
+  width: auto;
+  background-position: center;
+}
+.container{
+  display: flex;
+  
+  color: black;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  
+}
+
+.titulo__principal{
+  font-size: 28px;
+  text-align: center;
+  padding: 8px 0 5px 50px;
+}
+.barra__titulo-cima{
+  padding: 0;
+}
+.barra__titulo-baixo{
+  padding: 0;
+  
+}
+.container__lista{
+  text-align: center;
+  width: auto;
+  
+  
+}
+.texto__principal{
+  font-size: 12px;
+  color: white;
+}
+.container-texto__principal{
+  margin-left: 0;
+  width: auto;
+  color: #000;
+  flex-direction: row;
+}
+.texto__principal{
+  margin-left: 0;
+}
+.container__lista-item li{
+  font-size: 10px;
+  padding: 1px;
+}
+
+
+
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
