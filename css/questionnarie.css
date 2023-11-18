@@ -43,3 +43,20 @@ input#occupation.form-control, input#level.form-control, input#age.form-control{
     background: transparent;
     color: white;
 }
+input#name.form-control, input#email.form-control{
+    background: transparent;
+}
+
+button.btn.btn-primary{
+    background-color: black;
+    border: none;
+}
+
+
+
+@media screen and (min-width: 300px )and (max-width: 426px) {
+    body{
+        background-size:auto;
+        background-repeat: repeat;
+    }
+}
