@@ -1,7 +1,7 @@
 function nomear(){
     let nome = document.getElementById('name').value;
     let senhaInput = document.getElementById('senha').value;
-    let botao = document.getElementById('botaoLogin');
+    let botao = document.getElementById('botao2');
     
     if(nome.length == 0 || senhaInput.length == 0 ){
         alert('Preencha o campo corretamente!');
@@ -20,6 +20,6 @@ function nomear(){
 
 
 
-document.querySelector('.button').addEventListener("click", function(event){
+document.querySelector('#botao2').addEventListener("click", function(event){
     event.preventDefault()
   });
