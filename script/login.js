@@ -16,7 +16,22 @@ function nomear(){
 }
 
 
+function preencherFormulario() {
+    
+    let nomeSalvo = localStorage.getItem('name2');
+    let senhaSalva = localStorage.getItem('senha2');
+    
+    
+    if (nomeSalvo && senhaSalva) {
+        document.getElementById('name').value = nomeSalvo;
+        document.getElementById('senha').value = senhaSalva;
+    }
+}
 
+document.getElementById('botaoFormulario').addEventListener('click', function(event) {
+    event.preventDefault();
+    preencherFormulario();
+});
 
 
 
