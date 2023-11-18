@@ -79,3 +79,27 @@ input {
   height: 30px;
 
 }
+@media screen and (min-width: 300px )and (max-width: 426px) {
+  .container-section{
+    flex-direction: column;
+  }
+
+  .container-form{
+    padding: 0;
+    margin: -120px 20px 10px 10px;
+  }
+  .container--text{
+    width: auto;
+  }
+
+  .titulo{
+    font-size: 24px;
+    margin: 8px;
+  }
+  .texto{
+    font-size: 12px;
+  }
+  .button2{
+    margin: 0;
+  }
+}
