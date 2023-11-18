@@ -20,6 +20,10 @@ function nomear(){
 
 
 
+
+
+
 document.querySelector('#botao3').addEventListener("click", function(event){
-    event.preventDefault()
+    event.preventDefault();
+    preencherFormulario();
   });

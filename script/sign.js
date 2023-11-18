@@ -15,11 +15,19 @@ function nomear(){
     }
 }
 
+function preencherFormulario() {
+    let nomeArmazenado = localStorage.getItem('name3');
+    let senhaArmazenada = localStorage.getItem('senha2');
 
-
-
+    if (nomeArmazenado && senhaArmazenada) {
+      document.getElementById('name2').value = nomeArmazenado;
+      document.getElementById('senha2').value = senhaArmazenada;
+    }
+  }
 
 
 document.querySelector('#botao2').addEventListener("click", function(event){
-    event.preventDefault()
+    event.preventDefault();
+
+
   });
