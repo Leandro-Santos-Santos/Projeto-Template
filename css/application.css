@@ -61,24 +61,28 @@ form .input-group input{
 
 form .row input {
 display: flex;
-box-sizing: border-box;
-font-size: 1.2rem;
+font-size: large;
 color: black;
 background-color: white;
-border-radius: 5px;
-padding: 0 10px;
-
+border-radius: 8px;
+padding: 2px 10px;
+width: 144px;
+height: 41px;
+border: none;
 }
 
-.row select-box .icon-container{
-    width: 50px;
+.row select {
+    width: 165px;
     height: 100%;
-    position: absolute;
-    right: 0;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 7px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: white;
+    font-size: larger;
 }
 
 .icon-container{
