@@ -45,6 +45,7 @@ input#occupation.form-control, input#level.form-control, input#age.form-control{
 }
 input#name.form-control, input#email.form-control{
     background: transparent;
+    color: white;
 }
 
 button.btn.btn-primary{
