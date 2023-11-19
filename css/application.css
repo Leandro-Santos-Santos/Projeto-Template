@@ -70,10 +70,21 @@ padding: 0 10px;
 
 }
 
-form .row select{
-    width: 18px;
-    height: 22px;
-    margin-right: 1.5rem; 
+.row select-box .icon-container{
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.icon-container{
+    font-size: 30px;
+    color: black;
+
 }
 
 .button input {
@@ -87,7 +98,9 @@ form .row select{
     height: 69px;
     border: none;
     border-radius: 7px;
+    margin: 51px 97px 112px -74px;
 }
+
 
 .row-third input{
     background-color: white;
@@ -118,4 +131,4 @@ h1 {
     line-height: 110%;
     text-align: center;
 }
-   
+
