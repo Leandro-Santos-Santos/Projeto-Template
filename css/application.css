@@ -121,8 +121,8 @@ border: none;
 
 .Select__value {
     width: 165px;
-    height: 50px;
-    border-radius: 10px;
+    height: 45px;
+    border-radius: 6px;
     font-size: larger;
     border: none;
     
@@ -147,6 +147,12 @@ border: none;
     border: none;
     border-radius: 7px;
     margin: 51px 97px 112px -74px;
+    cursor: pointer;
+}
+
+.button input:hover{
+    background: rgb(209, 208, 208);
+    
 }
 
 
