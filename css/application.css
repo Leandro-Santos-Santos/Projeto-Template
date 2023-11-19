@@ -40,6 +40,9 @@ main.container{
     
 }
 
+.row{
+    align-items: center;
+}
 .row-secund{
     display: flex;
    
@@ -79,10 +82,29 @@ border: none;
     border-radius: 5px;
     padding: 7px 20px;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     background-color: white;
     font-size: larger;
+    
+}
+.container__city{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.container__city label{
+    margin-bottom: 16px;
+}
+.container__zip{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 16px;
+    gap: 16px;
+    margin-left: 28px;
 }
 
 .icon-container{
@@ -140,4 +162,21 @@ h1 {
 .row{
     display: flex;
     
+}
+
+
+.row-secund{
+display: flex;
+flex-direction: row;
+}
+
+.container__money{
+    display: flex;
+    flex-direction: column;
+}
+.radio{
+    width: 80px;
+    display: flex;
+    padding: 16px;
+    gap: 16px;
 }
