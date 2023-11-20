@@ -210,3 +210,22 @@ flex-direction: row;
     padding: 16px;
     gap: 16px;
 }
+
+@media screen and (max-width: 1330px) {
+    .body {
+        width: 50%;
+    }
+    main.container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .body {
+        width: 90%;
+        height: auto;
+    }
+    main.container {
+       width: 100%;
+    }
+}
